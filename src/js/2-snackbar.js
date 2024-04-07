@@ -39,7 +39,7 @@ form.addEventListener("submit", function(event) {
                     backgroundColor: '#59A10D',
                     position: 'topRight',
                     progressBarColor: '#326101',
-                    iconUrl: './img/success.svg',
+                    iconUrl: '/img/success.svg',
                 });
             },delay)
         })
@@ -54,7 +54,7 @@ form.addEventListener("submit", function(event) {
                     backgroundColor: '#EF4040',
                     position: 'topRight',
                     progressBarColor: '#B51B1B',
-                    iconUrl: './img/error.svg',
+                    iconUrl: '/img/error.svg',
                 });
             }, delay)
         })
