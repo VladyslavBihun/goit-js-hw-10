@@ -71,7 +71,6 @@ flatpickr("#datetime-picker", {
                         position: 'topRight',
                         progressBarColor: '#B51B1B',
                         theme: 'dark',
-                        iconUrl: '/img/error.svg',
                     }));
                 } else {
                     resolve();
