@@ -4,23 +4,24 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>2-snackbar</title>
+    <link rel="stylesheet" href="./css/2-snackbar.css" />
     <script type="module" src="./js/2-snackbar.js"></script>
   </head>
   <body>
     <p><a href="./index.html">Go back</a></p>
     <form class="form">
-      <label>
+      <label class="first-label">
         Delay (ms)
         <input type="number" name="delay" required />
       </label>
 
       <fieldset>
         <legend>State</legend>
-        <label>
+        <label class="second-label">
           <input type="radio" name="state" value="fulfilled" required />
           Fulfilled
         </label>
-        <label>
+        <label class="third-label">
           <input type="radio" name="state" value="rejected" required />
           Rejected
         </label>

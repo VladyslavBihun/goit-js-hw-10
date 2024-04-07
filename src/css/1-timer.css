@@ -60,7 +60,7 @@ button {
   width: 75px;
   height: 40px;
   background-color: #4e75ff;
-  border-color: #4e75ff;
+  border: #4e75ff;
 
   font-family: 'Montserrat', sans-serif;
   font-weight: 500;
@@ -72,13 +72,13 @@ button {
 
 button:disabled {
   background-color: #cfcfcf;
-  border-color: #cfcfcf;
+  border: #cfcfcf;
   color: #989898;
 }
 
 button:hover {
   background-color: #6c8cff;
-  border-color: #6c8cff;
+  border: #6c8cff;
 }
 .timer {
   width: 346px;
