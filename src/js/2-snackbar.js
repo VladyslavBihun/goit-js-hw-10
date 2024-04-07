@@ -31,16 +31,30 @@ form.addEventListener("submit", function(event) {
         .then((delay) => {
             setTimeout(() => {
                 iziToast.success({
-                    title: 'Success',
-                    message: `✅ Fulfilled promise in ${delay}ms`
+                    message: `Fulfilled promise in ${delay}ms`,
+                    theme: 'dark',
+                    messageColor: '#fff',
+                    messageSize: '16px',
+                    messageLineHeight: '1,5',
+                    backgroundColor: '#59A10D',
+                    position: 'topRight',
+                    progressBarColor: '#326101',
+                    iconUrl: '../img/success.svg',
                 });
             },delay)
         })
         .catch((delay) => {
             setTimeout(() => {
                 iziToast.error({
-                    title: 'Error',
-                    message: `❌ Rejected promise in ${delay}ms`
+                    message: `Rejected promise in ${delay}ms`,
+                    theme: 'dark',
+                    messageColor: '#fff',
+                    messageSize: '16px',
+                    messageLineHeight: '1,5',
+                    backgroundColor: '#EF4040',
+                    position: 'topRight',
+                    progressBarColor: '#B51B1B',
+                    iconUrl: '../img/error.svg',
                 });
             }, delay)
         })

@@ -63,18 +63,15 @@ flatpickr("#datetime-picker", {
             return new Promise((resolve, reject) => {
                 if (date < 0) {
                     reject(iziToast.error({
-                        title: 'Error',
-                        titleColor: '#fff',
-                        titleSize: '16px',
-                        titleLineHeight: '1,5',
                         message: 'Please choose a date in the future',
                         messageColor: '#fff',
                         messageSize: '16px',
                         messageLineHeight: '1,5',
                         backgroundColor: '#EF4040',
-                        iconColor: 'white',
                         position: 'topRight',
                         progressBarColor: '#B51B1B',
+                        theme: 'dark',
+                        iconUrl: '../img/error.svg',
                     }));
                 } else {
                     resolve();
